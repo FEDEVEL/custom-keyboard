@@ -1,0 +1,76 @@
+{
+    "keyboard_name": "Custom FEDEVEL Macroboard",
+    "manufacturer": "FEDEVEL",
+    "maintainer": "robert-feranec",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["GP0", "GP1", "GP2"],
+        "rows": ["GP8", "GP9", "GP10", "GP11"]
+    },
+    "features": {
+        "bootmagic": false,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true,
+        "rgblight": true,
+        "backlight": false
+    },
+    "rgblight": {
+        "led_count": 9,
+        "hue_steps": 10,
+        "saturation_steps": 17,
+        "brightness_steps": 17,
+        "max_brightness": 255,
+        "animations": {
+            "alternating": true,
+            "breathing": true,
+            "christmas": true,
+            "knight": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "rgb_test": true,
+            "snake": true,
+            "static_gradient": true,
+            "twinkle": true
+        }
+    },
+    "ws2812": {
+        "pin": "GP24",
+        "driver": "vendor"
+    },
+    "encoder": {
+        "enabled": true,
+        "rotary": [
+            {"pin_a": "GP15", "pin_b": "GP16", "resolution": 3},
+            {"pin_a": "GP17", "pin_b": "GP18", "resolution": 3},
+            {"pin_a": "GP19", "pin_b": "GP20", "resolution": 3}
+        ]
+    },
+    "layouts": {
+        "LAYOUT_mp10": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 1, "y": 0},
+                {"matrix": [0, 2], "x": 2, "y": 0},
+                {"matrix": [1, 0], "x": 0, "y": 1},
+                {"matrix": [1, 1], "x": 1, "y": 1},
+                {"matrix": [1, 2], "x": 2, "y": 1},
+                {"matrix": [2, 0], "x": 0, "y": 2},
+                {"matrix": [2, 1], "x": 1, "y": 2},
+                {"matrix": [2, 2], "x": 2, "y": 2},
+                {"matrix": [3, 0], "x": 0, "y": 3},
+                {"matrix": [3, 1], "x": 1, "y": 3},
+                {"matrix": [3, 2], "x": 2, "y": 3}
+            ]
+        }
+    },
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0002",
+        "vid": "0x4645"
+    }
+}
