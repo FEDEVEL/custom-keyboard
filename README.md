@@ -1,5 +1,8 @@
 # Custom keyboard
-Watch the full step-by-step tutorial about how to design this keyboard by youreslef. The video is here: 
+Watch the full step-by-step tutorial about how to design this keyboard by youreslef. The video is here: https://www.youtube.com/playlist?list=PLXvLToQzgzdftro2qK5In8p6ExsDFdpzw
+
+# Project schematic and PCB
+You can open schematic and PCB directly here: https://oshwlab.com/robertferanec/custom-keyboard
 
 # Content
 You will find here all the files needed to build the custom keyboard from my video tutorial.
