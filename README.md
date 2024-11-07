@@ -1,7 +1,7 @@
 # Custom keyboard
 Watch the full step-by-step tutorial about how to design this keyboard by youreslef. The video is here: https://www.youtube.com/playlist?list=PLXvLToQzgzdftro2qK5In8p6ExsDFdpzw
 
-![Custom Keyboard](https://github.com/FEDEVEL/custom-keyboard/blob/main/assets/keyboard.jpg?raw=true)
+[![Custom Keyboard Tutorial](https://img.youtube.com/vi/N4cLFE0FF2U/0.jpg)](https://www.youtube.com/watch?v=N4cLFE0FF2U)
 
 ## What is here
 You will find here all the files needed to build the custom keyboard from my video tutorial.
