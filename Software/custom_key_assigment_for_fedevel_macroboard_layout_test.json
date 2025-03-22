@@ -1,0 +1,100 @@
+{
+  "name": "Custom FEDEVEL Macroboard",
+  "vendorProductId": 1178927106,
+  "macros": [
+    "{+KC_LCTL}c{-KC_LCTL}",
+    "{+KC_LCTL}v{-KC_LCTL}",
+    "git add .; git commit {KC_PMNS}m \"commiting\"; git push origin master;",
+    "{+KC_LCTL}{+KC_LSFT}{KC_LEFT}{-KC_LCTL}{-KC_LSFT}",
+    "{KC_LCTL,KC_LSFT,KC_RGHT}",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "layers": [
+    [
+      "KC_A",
+      "KC_B",
+      "KC_C",
+      "KC_D",
+      "KC_E",
+      "KC_F",
+      "KC_G",
+      "KC_H",
+      "KC_I",
+      "CUSTOM(64)",
+      "KC_0",
+      "KC_J"
+    ],
+    [
+      "S(KC_Z)",
+      "A(KC_Y)",
+      "C(KC_S)",
+      "KC_SPC",
+      "KC_L",
+      "KC_C",
+      "C(S(KC_RBRC))",
+      "C(S(KC_LBRC))",
+      "S(KC_LEFT)",
+      "CUSTOM(64)",
+      "KC_1",
+      "KC_F7"
+    ],
+    [
+      "KC_A",
+      "KC_B",
+      "KC_C",
+      "MACRO(0)",
+      "MACRO(1)",
+      "KC_TRNS",
+      "MACRO(3)",
+      "MACRO(4)",
+      "MACRO(2)",
+      "CUSTOM(64)",
+      "KC_2",
+      "KC_TRNS"
+    ],
+    [
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "KC_TRNS",
+      "CUSTOM(64)",
+      "KC_3",
+      "KC_3"
+    ]
+  ],
+  "encoders": [
+    [
+      ["KC_L", "KC_K"],
+      ["KC_LEFT", "KC_RGHT"],
+      ["RGB_HUI", "KC_TRNS"],
+      ["KC_TRNS", "KC_TRNS"]
+    ],
+    [
+      ["KC_N", "KC_M"],
+      ["KC_TRNS", "KC_TRNS"],
+      ["KC_TRNS", "KC_TRNS"],
+      ["KC_TRNS", "KC_TRNS"]
+    ],
+    [
+      ["KC_P", "KC_O"],
+      ["KC_DOWN", "KC_UP"],
+      ["KC_TRNS", "KC_TRNS"],
+      ["KC_TRNS", "KC_TRNS"]
+    ]
+  ]
+}
